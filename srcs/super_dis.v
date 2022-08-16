@@ -61,18 +61,19 @@ module super_dis(
             cnt_echo <= 1'b0;
     end 
     
-    //计算距离
+    // 计算距离
     always@(posedge clk or negedge rst_n)begin //     1/10_000 * cnt_echo * 17 1
         if(!rst_n)
             distance_1 <= 1'b0;
         else if(cnt==10_000_000-5)
+            // -5的原因是因为计算需要耗费一定的时间，所以在延迟到达前5个单位先进行计算
             distance_1 <= (cnt_echo*17)/10_000 + distance_1;//mm  
         else if(end_cnt_d)begin 
             distance_1 <= 0 ;
         end
     end
     
-    //取平均数据滤波
+    // 取平均数据滤波，五次测量求平均
     always@(posedge clk or negedge rst_n)begin 
         if(!rst_n)
             distance <= 1'b0 ;

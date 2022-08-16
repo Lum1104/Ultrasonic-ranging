@@ -1,0 +1,152 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 7980
+License: Customer
+
+Current time: 	Tue Aug 16 20:27:55 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1600
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=24
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	E:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	pc
+User home directory: C:/Users/pc
+User working directory: E:/Xilinx/top/top
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/Xilinx/Vivado
+HDI_APPROOT: E:/Xilinx/Vivado/2020.1
+RDI_DATADIR: E:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: E:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	E:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Xilinx/top/top/vivado.log
+Vivado journal file location: 	E:/Xilinx/top/top/vivado.jou
+Engine tmp dir: 	E:/Xilinx/top/top/.Xil/Vivado-7980-LAPTOP-TOJQQKI1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: E:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: E:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: E:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: E:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,006 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1030 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: E:\Xilinx\top\top\top.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Xilinx/top/top/top.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Xilinx/top/top/top.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,006 MB. GUI used memory: 67 MB. Current time: 8/16/22, 8:27:56 PM CST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 87 MB (+89239kb) [00:00:13]
+// [Engine Memory]: 1,006 MB (+903653kb) [00:00:13]
+// [GUI Memory]: 102 MB (+11116kb) [00:00:14]
+// [GUI Memory]: 127 MB (+20293kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  3396 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 1022.359 ; gain = 0.000 
+// Project name: top; location: E:/Xilinx/top/top; part: xc7a35tcsg324-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 137 MB (+4334kb) [00:01:09]
+// [GUI Memory]: 153 MB (+8715kb) [00:01:41]
+// Elapsed time: 574 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), super_dis_0 : super_dis (super_dis.v)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), super_dis_0 : super_dis (super_dis.v)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+// Elapsed time: 197 seconds
+selectCodeEditor("super_dis.v", 78, 461); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("super_dis.v", 448, 586); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,006 MB. GUI used memory: 91 MB. Current time: 8/16/22, 8:57:57 PM CST
+// Elapsed time: 1185 seconds
+selectCodeEditor("super_dis.v", 562, 242); // bP (w, cs)
+selectCodeEditor("super_dis.v", 617, 250); // bP (w, cs)
+selectCodeEditor("super_dis.v", 654, 294); // bP (w, cs)
+selectCodeEditor("super_dis.v", 768, 328); // bP (w, cs)
+selectCodeEditor("super_dis.v", 790, 413); // bP (w, cs)
+selectCodeEditor("super_dis.v", 804, 458); // bP (w, cs)
+selectCodeEditor("super_dis.v", 806, 486); // bP (w, cs)
+// Elapsed time: 51 seconds
+selectCodeEditor("super_dis.v", 311, 443); // bP (w, cs)
+selectCodeEditor("super_dis.v", 313, 761); // bP (w, cs)
+selectCodeEditor("super_dis.v", 509, 458); // bP (w, cs)
+selectCodeEditor("super_dis.v", 469, 762); // bP (w, cs)
+// Elapsed time: 1405 seconds
+selectCodeEditor("super_dis.v", 481, 708); // bP (w, cs)
+selectCodeEditor("super_dis.v", 555, 734); // bP (w, cs)
+selectCodeEditor("super_dis.v", 700, 768); // bP (w, cs)
+selectCodeEditor("super_dis.v", 78, 629); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("super_dis.v", 302, 632); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,006 MB. GUI used memory: 83 MB. Current time: 8/16/22, 9:27:57 PM CST

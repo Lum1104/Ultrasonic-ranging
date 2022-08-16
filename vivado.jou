@@ -2,28 +2,13 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Tue Aug 16 10:39:37 2022
-# Process ID: 5008
+# Start of session at: Tue Aug 16 20:27:38 2022
+# Process ID: 7980
 # Current directory: E:/Xilinx/top/top
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13064 E:\Xilinx\top\top\top.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17248 E:\Xilinx\top\top\top.xpr
 # Log file: E:/Xilinx/top/top/vivado.log
 # Journal file: E:/Xilinx/top/top\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project E:/Xilinx/top/top/top.xpr
 update_compile_order -fileset sources_1
-open_hw_manager
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 12
-wait_on_run impl_1
-open_run impl_1
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {E:/Xilinx/top/top/top.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {E:/Xilinx/top/top/top.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

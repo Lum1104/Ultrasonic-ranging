@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Tue Aug 16 10:43:42 2022
-# Process ID: 9320
+# Start of session at: Tue Aug 16 22:25:27 2022
+# Process ID: 14656
 # Current directory: E:/Xilinx/top/top/top.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: E:/Xilinx/top/top/top.runs/synth_1/top.vds

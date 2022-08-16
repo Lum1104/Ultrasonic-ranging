@@ -10,6 +10,7 @@ module super_dis(
     output reg [13:0]    distance // 障碍物距离
     );
     
+    // 以下与tube.v类似
     reg [26:0]        cnt        ;
     wire              add_cnt    ;
     wire              end_cnt    ; 
@@ -50,7 +51,7 @@ module super_dis(
     assign add_cnt_d = end_cnt ;
     assign end_cnt_d = add_cnt_d && cnt_d==5-1 ;
     
-    //记录回响信号时间
+    // 记录回响信号时间
     always@(posedge clk or negedge rst_n)begin 
         if(!rst_n)
             cnt_echo <= 1'b0;
